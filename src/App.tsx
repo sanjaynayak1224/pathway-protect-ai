@@ -10,6 +10,8 @@ import ForTourists from "./pages/ForTourists";
 import ForAuthorities from "./pages/ForAuthorities";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Signup from "./pages/Signup";
+import Login from "./pages/Login";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +30,8 @@ const App = () => (
           <Route path="/for-authorities" element={<ForAuthorities />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/login" element={<Login />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

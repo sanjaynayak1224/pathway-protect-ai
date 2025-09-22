@@ -51,11 +51,11 @@ const Navigation = () => {
 
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="outline" size="sm">
-              Login
+            <Button variant="outline" size="sm" asChild>
+              <Link to="/login">Login</Link>
             </Button>
-            <Button size="sm" className="bg-gradient-primary">
-              Get Started
+            <Button size="sm" className="bg-gradient-primary" asChild>
+              <Link to="/signup">Register</Link>
             </Button>
           </div>
 
@@ -102,11 +102,11 @@ const Navigation = () => {
                   
                   <div className="pt-4 border-t border-border">
                     <div className="flex flex-col space-y-2">
-                      <Button variant="outline" className="w-full">
-                        Login
+                      <Button variant="outline" className="w-full" asChild>
+                        <Link to="/login">Login</Link>
                       </Button>
-                      <Button className="w-full bg-gradient-primary">
-                        Get Started
+                      <Button className="w-full bg-gradient-primary" asChild>
+                        <Link to="/signup">Register</Link>
                       </Button>
                     </div>
                   </div>

@@ -16,21 +16,21 @@
     --popover: 0 0% 100%;
     --popover-foreground: 224 71% 4%;
 
-    /* Primary - Security Blue */
-    --primary: 217 91% 35%;
+    /* Primary - Government Blue (Indian Navy) */
+    --primary: 220 100% 20%;
     --primary-foreground: 210 40% 98%;
-    --primary-light: 217 91% 60%;
-    --primary-dark: 217 91% 25%;
+    --primary-light: 220 100% 35%;
+    --primary-dark: 220 100% 15%;
 
-    /* Secondary - Trust Teal */
-    --secondary: 184 77% 34%;
+    /* Secondary - Institutional Teal */
+    --secondary: 175 100% 25%;
     --secondary-foreground: 210 40% 98%;
-    --secondary-light: 184 77% 55%;
+    --secondary-light: 175 60% 40%;
 
-    /* Accent - Safety Orange */
-    --accent: 25 95% 53%;
-    --accent-foreground: 224 71% 4%;
-    --accent-light: 25 95% 70%;
+    /* Accent - Official Orange (Saffron inspired) */
+    --accent: 30 100% 45%;
+    --accent-foreground: 0 0% 100%;
+    --accent-light: 30 100% 60%;
 
     /* Status Colors */
     --success: 142 71% 45%;
